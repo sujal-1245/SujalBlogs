@@ -10,7 +10,7 @@ Here's a polished, stylish `README.md` for your **Sujal Blogs** project — desi
 </p>
 
 <p align="center">
-  <a href="https://sujalblogs.vercel.app" target="_blank">
+  <a href="https://sujal-blogs.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Live-Demo-00b894?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
   </a>
   <a href="https://github.com/sujal-1245/SujalBlogs" target="_blank">
