@@ -1,9 +1,3 @@
-Here's a polished, stylish `README.md` for your **Sujal Blogs** project — designed in the same elegant style as your portfolio and previous READMEs:
-
----
-
-<!-- Banner -->
-
 <h1 align="center">📝 Sujal Blogs — Markdown-Powered Blog Platform</h1>
 <p align="center">
   A fast, beautiful, and dynamic blog site built with React and TailwindCSS, with full Markdown support for writing and reading content like a pro.
@@ -121,12 +115,3 @@ Found this helpful or cool? Drop a ⭐️ on the repo — it really motivates me
 ## 📜 License
 
 This project is open-source under the [MIT License](LICENSE).
-
----
-
-Let me know when you want to link actual screenshots or embed a walkthrough video! We can also add:
-
-* Tag-based filtering
-* Author support
-* Comment integration (e.g., Giscus or Utterances)
-  whenever you expand the blog 🚀
