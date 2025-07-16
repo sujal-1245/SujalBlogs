@@ -4,6 +4,7 @@ import post3 from '../content/react-vs-html.md?raw';
 import post4 from '../content/tailwind-vs-css.md?raw'
 import post5 from '../content/Javascript.md?raw'
 import post6 from '../content/hosting-with-vercel.md?raw'
+import post7 from '../content/Translation-map.md?raw'
 
 const posts = [
   {
@@ -40,7 +41,7 @@ const posts = [
     content: post3,
   },
   {
-    id: '3',
+    id: '4',
     slug: 'tailwind-vs-css',
     title: 'CSS VS TAILWIND CSS',
     excerpt: 'Breaking down the key differences and performance wins of Vanilla CSS and TailwindCSS...',
@@ -51,7 +52,7 @@ const posts = [
     content: post4,
   },
   {
-    id: '3',
+    id: '5',
     slug: 'JavaScript',
     title: 'JavaScript Basics',
     excerpt: 'Breaking down the basics of JavaScript',
@@ -62,7 +63,7 @@ const posts = [
     content: post5,
   },
   {
-    id: '3',
+    id: '6',
     slug: 'vercel',
     title: 'Hosting your websites',
     excerpt: 'How to Host your Websites?',
@@ -71,6 +72,17 @@ const posts = [
     date: 'July 4, 2025',
     readingTime: '3 min read',
     content: post6,
+  },
+  {
+    id: '7',
+    slug: 'DSA',
+    title: 'Translation Map',
+    excerpt: 'basic to advance',
+    tags: ['python','DSA'],
+    coverImage: '/blog-images/vercel vs netlify.jpg',
+    date: 'July 16, 2025',
+    readingTime: '10 min read',
+    content: post7,
   }
 
 ];
