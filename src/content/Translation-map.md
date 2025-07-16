@@ -771,12 +771,20 @@ g.bfs(0)  # Output: 0 1 2 3
 
 These 3 (Linked List, Tree, Graph) are the foundation of real DSA.
 
+## 🚀 Keep Going!
 
-## ✅ Summary: Patterns
+DSA isn’t just about cracking interviews — it’s about training your mind to think sharper, solve smarter, and build better.
 
-| Pattern         | Keywords                      | Examples                    |
-|----------------|-------------------------------|-----------------------------|
-| Two Pointer     | Compare both ends             | Reverse, pair sum           |
-| Sliding Window  | Subarray/substring in range   | Max sum, unique substrings  |
-| Recursion       | Break problem into base case  | Factorial, Fibonacci        |
-| Backtracking    | Try all → Undo if needed      | Sudoku, permutations        |
+This map is just the beginning.
+
+Keep practicing. Keep exploring.
+And one day, you won’t just write code — **you’ll write solutions.**💡💻
+
+<div style="margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
+<a href="https://www.geeksforgeeks.org/data-structures/" target="_blank" style="background-color:#28a745; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; font-weight:600;">Practice on GeeksforGeeks</a>
+
+<a href="https://leetcode.com/problemset/all/" target="_blank" style="background-color:#f48024; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; font-weight:600;">Solve on LeetCode</a>
+
+<a href="https://www.naukri.com/code360/problems" target="_blank" style="background-color:#007bff; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; font-weight:600;">Explore CodeStudio</a>
+
+</div>
