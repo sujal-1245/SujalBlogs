@@ -29,69 +29,62 @@
 
 ---
 
+Perfect — I’ve updated your request in our system ✅
+Now I’ll begin expanding your 🧭 MASTER TRANSLATION MAP into a full beginner-to-DSA guide **with examples for every entry**.
+
+I’ll break it into parts so it’s organized and you can digest each clearly. Let’s start with the first few sections:
+
+---
+
+## 🔁 REPETITION / LOOPS — With Examples
+
+| You Think...            | Code                             | Example / Explanation                                     |
+| ----------------------- | -------------------------------- | --------------------------------------------------------- |
+| Do this N times         | `for i in range(n):`             | `for i in range(5): print(i)` → prints: 0 1 2 3 4         |
+| From 1 to N             | `for i in range(1, n + 1):`      | `for i in range(1, 6): print(i)` → prints: 1 2 3 4 5      |
+| From N to 1             | `for i in range(n, 0, -1):`      | `for i in range(5, 0, -1): print(i)` → prints: 5 4 3 2 1  |
+| From N-1 to 0           | `for i in range(n - 1, -1, -1):` | `for i in range(4, -1, -1): print(i)` → prints: 4 3 2 1 0 |
+| Every item in a list    | `for item in my_list:`           | `for item in [1, 2, 3]: print(item)` → prints: 1 2 3      |
+| While condition is true | `while condition:`               | `i = 0; while i < 3: print(i); i += 1` → prints: 0 1 2    |
+| Until end of list       | `while i < len(arr):`            | `i = 0; while i < len(arr): print(arr[i]); i += 1`        |
+
+---
+
+## 🔍 CONDITIONALS — With Examples
+
+| You Think...   | Code                        | Example                                                      |
+| -------------- | --------------------------- | ------------------------------------------------------------ |
+| First item?    | `if i == 0:`                | `if i == 0: print("First row")`                              |
+| Last column?   | `if j == n - 1:`            | Used in patterns: `if j == n-1: print("*")`                  |
+| If middle row? | `if i != 0 and i != n - 1:` | To create hollow shapes: skip first and last rows            |
+| If both true   | `if cond1 and cond2:`       | `if x > 0 and x % 2 == 0:` → check if x is positive and even |
+| If either true | `if cond1 or cond2:`        | `if x < 0 or x > 100:`                                       |
+| If not this    | `if not cond:`              | `if not found:` → executes if `found` is False               |
+
+---
+
 ## 🧱 STRING + STAR PATTERNS — With Examples
 
-| Pattern                  | Code (with i loop)                        | Example Output (n = 3)              |
-|--------------------------|-------------------------------------------|-------------------------------------|
-| Full row                 | `'*' * n`                                 | `***`                               |
-| Hollow row               | `'*' + ' '*(n-2) + '*'`                   | `* *` (for n = 3)                   |
-| Right angled triangle    | `'*'*i` in `for i in range(1,n+1)`        | ```
-*  
-**  
-***  
-``` |
-| Inverted triangle        | `'*'*i` in `for i in range(n,0,-1)`       | ```
-***  
-**  
-*  
-``` |
-| Mirrored triangle        | `' '*(n-i) + '*'*i`                       | ```
-  *  
- **  
-***  
-``` |
-| Centered pyramid         | `' '*(n-i) + '*'*(2*i-1)`                 | ```
-  *  
- ***  
-*****  
-``` |
-| Inverted pyramid         | Reverse of centered pyramid              | ```
-*****  
- ***  
-  *  
-``` |
-| Diamond pattern          | Combine pyramid + inverted pyramid       | ```
-  *  
- ***  
-*****  
- ***  
-  *  
-``` |
-| Number triangle          | `str(i)*i` in `for i in range(1,n+1)`     | ```
-1  
-22  
-333  
-``` |
-| Floyd’s triangle         | `join(str(count))` with running count     | ```
-1  
-2 3  
-4 5 6  
-``` |
-| Sandglass               | Inverted + upright mirrored triangle     | ```
-*****  
- ***  
-  *  
- ***  
-*****  
-``` |
-| Hollow triangle          | `if j==0 or j==i or i==n-1:`              | ```
-*  
-* *  
-***  
-``` |
+| Pattern                 | Code (with `i` loop)                                      | Example for n = 3                               |
+| ----------------------- | --------------------------------------------------------- | ----------------------------------------------- |
+| Full row                | `'*' * n`                                                 | `***`                                           |
+| Hollow row              | `'*' + ' '*(n-2) + '*'`                                   | `* *` if n = 3                                  |
+| Right angled triangle   | `'*' * i` in `range(1, n+1)`                              | `*`<br>`**`<br>`***`                            |
+| Inverted right triangle | `'*' * i` in `range(n, 0, -1)`                            | `***`<br>`**`<br>`*`                            |
+| Mirrored triangle       | `' '*(n-i) + '*' * i`                                     | `  *`<br>` **`<br>`***`                         |
+| Centered pyramid        | `' '*(n-i) + '*'*(2*i-1)`                                 | `  *`<br>` ***`<br>`*****`                      |
+| Inverted pyramid        | `' '*(n-i) + '*'*(2*i-1)` in reverse                      | `*****`<br>` ***`<br>`  *`                      |
+| Diamond pattern         | Combine pyramid + inverted pyramid                        | `  *`<br>` ***`<br>`*****`<br>` ***`<br>`  *`   |
+| Number triangle         | `str(i)*i` in `range(1, n+1)`                             | `1`<br>`22`<br>`333`                            |
+| Floyd’s triangle        | `line = ' '.join(str(c)...)` using running count variable | `1`<br>`2 3`<br>`4 5 6`                         |
+| Sandglass               | Inverted triangle + upright mirrored triangle             | `*****`<br>` ***`<br>`  *`<br>` ***`<br>`*****` |
+| Hollow triangle         | `if j==0 or j==i or i==n-1`                               | Creates edges of triangle                       |
+
+---
 
 > ⚠️ Note: Use nested loops (`for i in range(n)` and `for j in range(...)`) for printing most of these patterns. The logic inside the loop (conditionals, spaces, stars) controls the shape.
 
+---
 
 ## 📚 PYTHON INBUILT DATA STRUCTURES
 
