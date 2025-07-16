@@ -4,40 +4,6 @@
 
 ## 🔁 REPETITION / LOOPS — With Examples
 
-| You Think...             | Code                         | Example / Explanation                            |
-|--------------------------|------------------------------|--------------------------------------------------|
-| Do this N times          | `for i in range(n):`         | `for i in range(5): print(i)` → 0 1 2 3 4        |
-| From 1 to N              | `for i in range(1, n + 1):`  | `for i in range(1, 6): print(i)` → 1 2 3 4 5     |
-| From N to 1              | `for i in range(n, 0, -1):`  | `for i in range(5, 0, -1): print(i)` → 5 4 3 2 1 |
-| From N-1 to 0            | `for i in range(n-1, -1, -1)`| `for i in range(4, -1, -1): print(i)` → 4 to 0   |
-| Every item in a list     | `for item in my_list:`       | `for item in [1,2,3]: print(item)`               |
-| While condition is true  | `while condition:`           | `i=0; while i<3: print(i); i+=1` → 0 1 2         |
-| Until end of list        | `while i < len(arr):`        | `i=0; while i < len(arr): print(arr[i]); i+=1`   |
-
----
-
-## 🔍 CONDITIONALS — With Examples
-
-| You Think...           | Code                        | Example                                           |
-|------------------------|-----------------------------|---------------------------------------------------|
-| First item?            | `if i == 0:`                | `if i == 0: print("First row")`                   |
-| Last column?           | `if j == n - 1:`            | Used in patterns                                  |
-| If middle row?         | `if i != 0 and i != n - 1:` | Skip first and last rows                          |
-| If both true           | `if cond1 and cond2:`       | `if x > 0 and x % 2 == 0:`                         |
-| If either true         | `if cond1 or cond2:`        | `if x < 0 or x > 100:`                             |
-| If not this            | `if not cond:`              | `if not found:`                                   |
-
----
-
-Perfect — I’ve updated your request in our system ✅
-Now I’ll begin expanding your 🧭 MASTER TRANSLATION MAP into a full beginner-to-DSA guide **with examples for every entry**.
-
-I’ll break it into parts so it’s organized and you can digest each clearly. Let’s start with the first few sections:
-
----
-
-## 🔁 REPETITION / LOOPS — With Examples
-
 | You Think...            | Code                             | Example / Explanation                                     |
 | ----------------------- | -------------------------------- | --------------------------------------------------------- |
 | Do this N times         | `for i in range(n):`             | `for i in range(5): print(i)` → prints: 0 1 2 3 4         |
