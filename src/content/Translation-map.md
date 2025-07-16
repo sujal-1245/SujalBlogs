@@ -771,6 +771,8 @@ g.bfs(0)  # Output: 0 1 2 3
 
 These 3 (Linked List, Tree, Graph) are the foundation of real DSA.
 
+---
+
 ## 🚀 Keep Going!
 
 DSA isn’t just about cracking interviews — it’s about training your mind to think sharper, solve smarter, and build better.
@@ -778,13 +780,17 @@ DSA isn’t just about cracking interviews — it’s about training your mind t
 This map is just the beginning.
 
 Keep practicing. Keep exploring.
-And one day, you won’t just write code — **you’ll write solutions.**💡💻
+And one day, you won’t just write code — **you’ll write solutions.** 💡💻
 
-<div style="margin-top: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
-<a href="https://www.geeksforgeeks.org/data-structures/" target="_blank" style="background-color:#28a745; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; font-weight:600;">Practice on GeeksforGeeks</a>
+<p align="center">
+  <a href="https://www.geeksforgeeks.org/data-structures/" target="_blank" style="display:inline-block;margin-right:10px;">
+    <img src="https://img.shields.io/badge/GeeksforGeeks-0F9D58?style=for-the-badge&logo=GeeksforGeeks&logoColor=white" alt="GeeksforGeeks" />
+  </a>
+  <a href="https://leetcode.com/problemset/all/" target="_blank" style="display:inline-block;margin-right:10px;">
+    <img src="https://img.shields.io/badge/LeetCode-F89F1B?style=for-the-badge&logo=LeetCode&logoColor=white" alt="LeetCode" />
+  </a>
+  <a href="https://www.naukri.com/code360/problems" target="_blank" style="display:inline-block;">
+    <img src="https://img.shields.io/badge/CodeStudio-0A66C2?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAbFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8+pTuIAAAAJXRSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAosZjkAAAAkUlEQVR4AWMQAwpQUFBQUxACM1AwMzAwgZKJiYGBuHGAQRiQpUQUo2phYWCv3uHiECBUVY1MDFRz8oKVEzK6uLWZUVLBg1dMyACASsTDoY+KQszAwMjKwCFjsLYEFABVnkKO1CD6RgAAAAASUVORK5CYII=&logoColor=white" alt="CodeStudio" />
+  </a>
+</p>
 
-<a href="https://leetcode.com/problemset/all/" target="_blank" style="background-color:#f48024; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; font-weight:600;">Solve on LeetCode</a>
-
-<a href="https://www.naukri.com/code360/problems" target="_blank" style="background-color:#007bff; color:white; padding:10px 20px; text-decoration:none; border-radius:5px; font-weight:600;">Explore CodeStudio</a>
-
-</div>
