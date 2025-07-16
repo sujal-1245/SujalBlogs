@@ -1,3 +1,24 @@
+## 🧭 MASTER TRANSLATION MAP — Turning Thoughts into Code
+
+Have you ever had a clear idea in your mind, but didn’t know *how to write it in code*?
+
+That was me too.
+
+As I started my journey into programming and DSA, I realized the biggest challenge wasn't just learning syntax — it was learning **how to *think* like a programmer**. I knew *what* I wanted my code to do, but I didn’t always know *how* to translate that logic into actual Python code.
+
+So I built this — **The MASTER TRANSLATION MAP**.
+
+This isn’t just a cheat sheet. It’s my personal guide to converting natural language ideas into real, working Python code. From basic loops and conditionals, to star patterns, list operations, functions, and all the way to core DSA like Linked Lists, Trees, and Graphs — everything is broken down in a way that made sense to me as a learner.
+
+Every entry here answers one core question:
+🧠 “If I think this... what should the code look like?”
+
+Whether you're a beginner just starting out, or someone revising core concepts, I hope this map helps you as much as it has helped me. Feel free to bookmark it, copy it, or add to it — because this isn’t just a map... it’s a mindset.
+
+Let’s keep turning logic into code 🚀
+
+---
+
 # 🧭 MASTER TRANSLATION MAP: Natural Language → Code
 
 ---
